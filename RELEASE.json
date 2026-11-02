@@ -1,0 +1,6 @@
+{
+  "version": "0.3.0",
+  "development_commit": "474336e",
+  "publication": "Complete GPL runtime source snapshot; development history is not included.",
+  "build": "git archive --format=zip --prefix=afterware/ v0.3.0 > afterware-connect-0.3.0.zip"
+}

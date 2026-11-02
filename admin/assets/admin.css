@@ -1,0 +1,287 @@
+/*
+ * Afterware Connect admin styles.
+ *
+ * Neutral greys and semantic colours only, so the screens sit correctly in
+ * every admin colour scheme; --wp-admin-theme-color is the one scheme colour
+ * core exposes, and it always has a fallback here. No web fonts, no images.
+ */
+
+.afterware {
+	--afterware-border: #dcdcde;
+	--afterware-surface: #fff;
+	--afterware-muted: #646970;
+	--afterware-ok: #007017;
+	--afterware-warn: #8a6116;
+	--afterware-danger: #b32d2e;
+	--afterware-info: #2271b1;
+	--afterware-accent: var(--wp-admin-theme-color, #2271b1);
+	max-width: 60rem;
+}
+
+/* ------------------------------------------------------------ header */
+
+.afterware-header {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.75rem;
+}
+
+.afterware-header__action {
+	margin-inline-start: auto;
+}
+
+.afterware-subhead {
+	align-items: baseline;
+	color: var(--afterware-muted);
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.75rem;
+	margin-top: 0;
+}
+
+.afterware-lede {
+	color: var(--afterware-muted);
+	font-size: 0.95rem;
+	max-width: 42rem;
+}
+
+/* ------------------------------------------------------------ cards */
+
+.afterware-cards {
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	margin: 1rem 0;
+}
+
+.afterware-card {
+	background: var(--afterware-surface);
+	border: 1px solid var(--afterware-border);
+	border-radius: 4px;
+	margin: 1rem 0;
+	padding: 1rem 1.25rem;
+}
+
+.afterware-card h2 {
+	font-size: 1.05rem;
+	margin-top: 0;
+}
+
+.afterware-card--attention { border-inline-start: 4px solid var(--afterware-accent); }
+.afterware-card--action { border-inline-start: 4px solid var(--afterware-ok); }
+.afterware-card--danger { border-inline-start: 4px solid var(--afterware-danger); }
+
+.afterware-card--filter {
+	color: inherit;
+	display: block;
+	margin: 0;
+	text-decoration: none;
+	transition: border-color 120ms ease, box-shadow 120ms ease;
+}
+
+.afterware-card--filter:hover,
+.afterware-card--filter:focus {
+	border-color: var(--afterware-accent);
+	color: inherit;
+}
+
+.afterware-card--filter.is-active {
+	border-color: var(--afterware-accent);
+	box-shadow: inset 0 0 0 1px var(--afterware-accent);
+}
+
+.afterware-card__count {
+	display: block;
+	font-size: 2rem;
+	line-height: 1.1;
+}
+
+.afterware-card__count,
+.afterware-card__title {
+	display: block;
+	font-weight: 600;
+}
+
+.afterware-card__blurb {
+	color: var(--afterware-muted);
+	display: block;
+	font-size: 0.85rem;
+}
+
+/* ------------------------------------------------------------ chips */
+
+.afterware-chip {
+	border: 1px solid currentColor;
+	border-radius: 999px;
+	display: inline-block;
+	font-size: 0.75rem;
+	font-weight: 600;
+	line-height: 1.6;
+	padding: 0 0.6em;
+	white-space: nowrap;
+}
+
+.afterware-chip--ok { color: var(--afterware-ok); }
+.afterware-chip--warn { color: var(--afterware-warn); }
+.afterware-chip--danger { color: var(--afterware-danger); }
+.afterware-chip--info { color: var(--afterware-info); }
+.afterware-chip--muted { color: var(--afterware-muted); }
+
+/* ------------------------------------------------------------ text */
+
+.afterware-mono {
+	background: transparent;
+	font-family: Menlo, Consolas, monospace;
+	font-size: 0.85em;
+	padding: 0;
+}
+
+.afterware-emphasis { font-weight: 600; }
+.afterware-blocked,
+.afterware-lastscan { color: var(--afterware-muted); }
+
+.afterware-time {
+	color: var(--afterware-muted);
+	white-space: nowrap;
+}
+
+/* ------------------------------------------------------------ lists */
+
+.afterware-facts,
+.afterware-changes {
+	display: grid;
+	gap: 0.25rem 1.5rem;
+	grid-template-columns: minmax(9rem, 14rem) 1fr;
+	margin: 0.5rem 0;
+}
+
+.afterware-facts dt,
+.afterware-changes dt {
+	font-weight: 600;
+	margin: 0;
+}
+
+.afterware-facts dd,
+.afterware-changes dd {
+	margin: 0;
+}
+
+@media (max-width: 600px) {
+	.afterware-facts,
+	.afterware-changes {
+		grid-template-columns: 1fr;
+	}
+
+	.afterware-facts dd,
+	.afterware-changes dd {
+		margin-bottom: 0.5rem;
+	}
+}
+
+.afterware-activity {
+	margin: 0;
+}
+
+.afterware-activity__item {
+	align-items: baseline;
+	border-bottom: 1px solid var(--afterware-border);
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	margin: 0;
+	padding: 0.5rem 0;
+}
+
+.afterware-activity__item:last-child {
+	border-bottom: 0;
+}
+
+.afterware-activity__text {
+	flex: 1 1 20rem;
+}
+
+/* ------------------------------------------------------------ forms */
+
+.afterware-form label {
+	display: block;
+	font-weight: 600;
+	margin-bottom: 0.25rem;
+}
+
+.afterware-form .description {
+	color: var(--afterware-muted);
+	display: block;
+	font-weight: 400;
+	margin-top: 0.25rem;
+}
+
+.afterware-confirm {
+	max-width: 28rem;
+}
+
+.afterware-button--danger {
+	border-color: var(--afterware-danger);
+	color: var(--afterware-danger);
+}
+
+.afterware-button--danger:hover:not(:disabled) {
+	background: var(--afterware-danger);
+	border-color: var(--afterware-danger);
+	color: #fff;
+}
+
+.afterware-log {
+	margin-bottom: 1rem;
+}
+
+.afterware-log pre {
+	background: #f6f7f7;
+	border: 1px solid var(--afterware-border);
+	max-height: 20rem;
+	overflow: auto;
+	padding: 0.75rem;
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+
+.afterware-notice__dismiss { display: inline; }
+
+/* Core's blue Dismiss button misses 4.5:1 on a warning's tinted background. */
+.afterware-notice .button-link { color: #1d5d90; }
+.afterware-notice .button-link:hover,
+.afterware-notice .button-link:focus { color: #123c5d; }
+
+/*
+ * Two selectors, because core's `.wp-core-ui .button-link { margin: 0 }` is
+ * worth as much as a single class and would otherwise leave the copy button
+ * this script adds flush against the id it copies.
+ */
+.afterware .afterware-copy { margin-inline-start: 0.5rem; }
+
+/* ------------------------------------------------------------ focus */
+
+.afterware a:focus-visible,
+.afterware button:focus-visible,
+.afterware input:focus-visible,
+.afterware select:focus-visible,
+.afterware textarea:focus-visible,
+.afterware summary:focus-visible {
+	box-shadow: 0 0 0 1px var(--afterware-accent);
+	outline: 2px solid transparent;
+	outline-offset: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.afterware * {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+	}
+}
+
+.afterware-note {
+	color: var(--afterware-muted);
+	display: block;
+	font-size: 0.85em;
+}
