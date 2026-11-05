@@ -25,8 +25,8 @@ listing, including the exact list of data the plugin sends.
 
 ## Install
 
-1. Install from the WordPress plugin directory, or upload the zip to
-   `/wp-content/plugins/afterware`.
+1. Download the ZIP from the [Afterware Connect installation guide](https://afterware.io/docs/install).
+   In WordPress, open **Plugins → Add New → Upload Plugin** and select the ZIP.
 2. Activate it through the "Plugins" screen. Per-site activation only: network-wide
    activation is refused with a notice explaining why.
 3. Visit "Afterware" in the admin menu. The first visit connects the site (see Connect

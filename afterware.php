@@ -1,12 +1,12 @@
 <?php
 /**
  * Plugin Name: Afterware Connect
- * Plugin URI: https://afterware.io/scan/
+ * Plugin URI: https://afterware.io/docs/install
  * Description: Inventory, risk report and signed in-place updates for abandoned WordPress plugins, maintained by Afterware.
- * Version: 0.3.0
+ * Version: 0.3.1
  * Requires at least: 5.8
  * Requires PHP: 7.4
- * Author: Afterware (Complexolution Inc.)
+ * Author: Afterware (Complexolution Ltd.)
  * Author URI: https://afterware.io
  * License: GPLv2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'AFTERWARE_VERSION', '0.3.0' );
+define( 'AFTERWARE_VERSION', '0.3.1' );
 define( 'AFTERWARE_FILE', __FILE__ );
 define( 'AFTERWARE_DIR', plugin_dir_path( __FILE__ ) );
 define( 'AFTERWARE_URL', plugin_dir_url( __FILE__ ) );
