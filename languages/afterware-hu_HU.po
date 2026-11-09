@@ -1,0 +1,1105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Afterware Connect\n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%1$s is back on the upstream copy %2$s."
+msgstr "A(z) %1$s bővítményt visszaállítottuk az eredeti %2$s verzióra."
+
+msgid "%1$s is now on the Afterware build %2$s. A backup of the upstream copy is kept at %3$s."
+msgstr "A(z) %1$s bővítmény az Afterware %2$s verziójára váltott. Az eredeti változat biztonsági mentése itt található: %3$s."
+
+msgid "%1$s reverted from %2$s to %3$s. Backup kept at: %4$s"
+msgstr "A(z) %1$s visszaállítva: %2$s → %3$s. A biztonsági mentés helye: %4$s"
+
+msgid "%1$s switched from %2$s to %3$s. Backup: %4$s"
+msgstr "A(z) %1$s verziója megváltozott: %2$s → %3$s. Biztonsági mentés: %4$s"
+
+msgid "%1$s was reverted from the Afterware build %2$s to the original %3$s."
+msgstr "A(z) %1$s bővítményt az Afterware %2$s verziójáról visszaállítottuk az eredeti %3$s verzióra."
+
+msgid "%1$s was switched to the Afterware build, from %2$s to %3$s."
+msgstr "A(z) %1$s bővítmény Afterware-verzióra váltott: %2$s → %3$s."
+
+msgid "%1$s was updated from %2$s to %3$s."
+msgstr "A(z) %1$s frissült: %2$s → %3$s."
+
+msgid "%1$s — switch: failed (%2$s)"
+msgstr "%1$s – váltás sikertelen (%2$s)"
+
+msgid "%1$s — switch: pending since %2$s UTC"
+msgstr "%1$s – váltás folyamatban %2$s UTC óta"
+
+msgid "%d key added"
+msgid_plural "%d keys added"
+msgstr[0] "%d kulcs hozzáadva"
+msgstr[1] "%d kulcs hozzáadva"
+
+msgid "%d key revoked"
+msgid_plural "%d keys revoked"
+msgstr[0] "%d kulcs visszavonva"
+msgstr[1] "%d kulcs visszavonva"
+
+msgid "%d plugin(s) could not be hashed and were left out of the inventory."
+msgstr "%d bővítmény ellenőrzőösszegét nem sikerült kiszámítani, ezért kimaradt a leltárból."
+
+msgid "%s ago"
+msgstr "%s ezelőtt"
+
+msgid "%s is a single-file plugin, which Afterware cannot switch yet."
+msgstr "A(z) %s egyetlen fájlból álló bővítmény, amelyet az Afterware még nem tud átváltani."
+
+msgid "%s is active for the whole network. Afterware Connect switches plugins per site only, so this one stays as it is."
+msgstr "A(z) %s a teljes hálózaton aktív. Az Afterware Connect csak webhelyenként vált bővítményt, ezért ezt változatlanul hagyja."
+
+msgid "%s is already on Afterware. Revert it first if you want to go back to the original."
+msgstr "A(z) %s már az Afterware verzióját használja. Ha az eredetit szeretné visszakapni, először állítsa vissza."
+
+msgid "%s is not on an Afterware build, so there is nothing to revert."
+msgstr "A(z) %s nem az Afterware verzióját használja, így nincs mit visszaállítani."
+
+msgid "%s — switch: pending"
+msgstr "%s – váltás folyamatban"
+
+msgid "--kind must be one of: question, breakage."
+msgstr "A --kind értéke question vagy breakage lehet."
+
+msgid "A SHA-256 of readme.txt, when the plugin has one."
+msgstr "A readme.txt SHA-256 ellenőrzőösszege, ha van ilyen fájl."
+
+msgid "A SHA-256 of the plugin main file, so Afterware can tell builds apart."
+msgstr "A bővítmény főfájljának SHA-256 ellenőrzőösszege, amely alapján az Afterware megkülönbözteti a verziókat."
+
+msgid "A backup"
+msgstr "Biztonsági mentés"
+
+msgid "A backup zip of the copy you have now is kept at"
+msgstr "A jelenlegi változat ZIP-mentését itt őrizzük meg:"
+
+msgid "A key ring is stored but is not trusted by this build, so it is being ignored and only the pinned keys count. Refreshing will replace it."
+msgstr "Van mentett kulcsgyűrű, de ez a verzió nem bízik meg benne, ezért figyelmen kívül hagyja. Csak a rögzített kulcsokat használja. Frissítéskor a mentett gyűrűt lecseréli."
+
+msgid "A previous switch did not finish. Revert to restore the upstream copy."
+msgstr "Egy korábbi váltás nem fejeződött be. Állítsa vissza az eredeti változatot."
+
+msgid "A previous switch of %s did not finish. Revert it first, then try again."
+msgstr "A(z) %s korábbi váltása nem fejeződött be. Először állítsa vissza, majd próbálja újra."
+
+msgid "A replacement invalidates the previous unused code. If this site already belongs to a workspace, ask its owner to move it from the dashboard."
+msgstr "Az új kód érvényteleníti a korábbi, fel nem használt kódot. Ha a webhely már egy munkaterülethez tartozik, kérje meg annak tulajdonosát, hogy helyezze át a vezérlőpulton."
+
+msgid "A support ticket is easier to answer with the tail of your debug log attached. It is off unless you turn it on, and you can see the exact lines before you send them on the Tickets screen."
+msgstr "A hibajegy megválaszolásához hasznos lehet a hibanapló vége. Ez alapértelmezés szerint ki van kapcsolva; a Hibajegyek oldalon küldés előtt megnézheti a pontos sorokat."
+
+msgid "A ticket needs a subject and a description of what happened."
+msgstr "Adja meg a hibajegy tárgyát és írja le, mi történt."
+
+msgid "API host"
+msgstr "API-kiszolgáló"
+
+msgid "About"
+msgstr "Névjegy"
+
+msgid "About this site"
+msgstr "A webhely adatai"
+
+msgid "Action"
+msgstr "Művelet"
+
+msgid "Active"
+msgstr "Aktív"
+
+msgid "Activity"
+msgstr "Tevékenység"
+
+msgid "Activity for this plugin"
+msgstr "A bővítmény tevékenysége"
+
+msgid "After the first one, scans run once a day on their own."
+msgstr "Az első után a vizsgálat naponta automatikusan lefut."
+
+msgid "Afterware"
+msgstr "Afterware"
+
+msgid "Afterware Connect is too old to verify current updates. Update Afterware Connect."
+msgstr "Az Afterware Connect túl régi a jelenlegi frissítések ellenőrzéséhez. Frissítse az Afterware Connectet."
+
+msgid "Afterware Connect supports single sites in this version. Activate it per site instead of network-wide."
+msgstr "Az Afterware Connect ezen verziója önálló webhelyeket támogat. Hálózati aktiválás helyett webhelyenként aktiválja."
+
+msgid "Afterware activity"
+msgstr "Afterware-tevékenység"
+
+msgid "Afterware answered with HTTP %d."
+msgstr "Az Afterware HTTP %d választ adott."
+
+msgid "Afterware answered, but not with a report. Nothing was saved; try again in a minute."
+msgstr "Az Afterware válaszolt, de nem jelentést küldött. Nem mentettünk semmit; próbálja újra egy perc múlva."
+
+msgid "Afterware could not authorize updates for this site. Check the connection in Afterware Settings or contact support. Installed plugins keep working, and local reverts remain available."
+msgstr "Az Afterware nem tudta engedélyezni a webhely frissítéseit. Ellenőrizze a kapcsolatot az Afterware beállításaiban, vagy lépjen kapcsolatba az ügyfélszolgálattal. A telepített bővítmények tovább működnek, és helyben továbbra is visszaállíthatók."
+
+msgid "Afterware could not be reached: %s."
+msgstr "Az Afterware nem érhető el: %s."
+
+msgid "Afterware could not verify the update for %s. The update was not installed and your site was not changed. Check the Afterware activity log, or contact support if this keeps happening."
+msgstr "Az Afterware nem tudta ellenőrizni a(z) %s frissítését. A frissítést nem telepítettük, és a webhelyet nem módosítottuk. Ellenőrizze az Afterware tevékenységnaplóját, vagy ha a hiba ismétlődik, forduljon az ügyfélszolgálathoz."
+
+msgid "Afterware could not write the backup archive %s, so it did not change anything."
+msgstr "Az Afterware nem tudta létrehozni a(z) %s biztonsági mentési archívumot, ezért nem változtatott semmit."
+
+msgid "Afterware did not restore it. Reinstall the original plugin from its own source."
+msgstr "Az Afterware nem állította vissza. Telepítse újra az eredeti bővítményt a saját forrásából."
+
+msgid "Afterware does not know which plugin you meant. Nothing is installed under that name on this site, and Afterware has no record of switching one."
+msgstr "Az Afterware nem tudja azonosítani a bővítményt. Ilyen nevű bővítmény nincs telepítve ezen a webhelyen, és váltásról sincs nyilvántartás."
+
+msgid "Afterware does not maintain a build of this plugin."
+msgstr "Az Afterware nem tart fenn verziót ehhez a bővítményhez."
+
+msgid "Afterware found no files to back up for %s, so it did not change anything."
+msgstr "Az Afterware nem talált menthető fájlokat a(z) %s bővítményhez, ezért nem változtatott semmit."
+
+msgid "Afterware has been notified."
+msgstr "Az Afterware értesítést kapott."
+
+msgid "Afterware has no record of a backup for this plugin."
+msgstr "Az Afterware nem tart nyilván biztonsági mentést ehhez a bővítményhez."
+
+msgid "Afterware has no verified build of %s to switch to yet."
+msgstr "Az Afterware-nek még nincs ellenőrzött verziója a(z) %s bővítményhez, amelyre át lehetne váltani."
+
+msgid "Afterware has no verified build of this plugin to switch to yet."
+msgstr "Az Afterware még nem rendelkezik a bővítmény ellenőrzött verziójával, amelyre át lehetne váltani."
+
+msgid "Afterware has not catalogued these yet."
+msgstr "Ezek még nem szerepelnek az Afterware nyilvántartásában."
+
+msgid "Afterware has not looked at this site yet. A scan sends the list of plugins and themes that are installed and brings back what Afterware knows about each one."
+msgstr "Az Afterware még nem vizsgálta ezt a webhelyet. A vizsgálat elküldi a telepített bővítmények és sablonok listáját, majd megjeleníti, mit tud róluk az Afterware."
+
+msgid "Afterware keeps a copy of the plugin it replaces in %s, and cannot write there. Make that directory writable by the web server user, then try again."
+msgstr "Az Afterware a lecserélt bővítmény másolatát a(z) %s helyen őrzi, de nem tud oda írni. Adjon írási jogosultságot a webkiszolgáló felhasználójának, majd próbálja újra."
+
+msgid "Afterware latest"
+msgstr "Legújabb Afterware-verzió"
+
+msgid "Afterware looks after plugins whose authors stopped. This is what it knows about yours."
+msgstr "Az Afterware olyan bővítményekkel foglalkozik, amelyek karbantartását az eredeti szerzők abbahagyták. Ezt tudja az Ön bővítményeiről."
+
+msgid "Afterware made a copy of this plugin before it started, and that copy is still on disk. Reverting puts it back exactly as it was, including whether the plugin was switched on."
+msgstr "Az Afterware a művelet előtt másolatot készített a bővítményről, amely továbbra is megtalálható a lemezen. A visszaállítás az eredeti állapotot állítja helyre, beleértve az aktiválás állapotát is."
+
+msgid "Afterware maintains a build of these."
+msgstr "Ezekhez az Afterware karbantartott verziót kínál."
+
+msgid "Afterware registration response was missing required fields."
+msgstr "Az Afterware regisztrációs válaszából hiányoztak kötelező adatok."
+
+msgid "Afterware rejected that site key."
+msgstr "Az Afterware elutasította ezt a webhelykulcsot."
+
+msgid "Afterware replaced the files for %s, but WordPress could not activate it again. Activate it from the Plugins screen, or revert to the previous version."
+msgstr "Az Afterware lecserélte a(z) %s fájljait, de a WordPress nem tudta újra aktiválni. Aktiválja a Bővítmények oldalon, vagy állítsa vissza az előző verziót."
+
+msgid "Afterware replaces plugin files. The new build may run database upgrades; keep a full site backup."
+msgstr "Az Afterware lecseréli a bővítmény fájljait. Az új verzió adatbázis-frissítéseket is végezhet; tartson teljes biztonsági mentést a webhelyről."
+
+msgid "Afterware returned an invalid connection code. Please try again."
+msgstr "Az Afterware érvénytelen kapcsolódási kódot adott vissza. Próbálja újra."
+
+msgid "Afterware settings"
+msgstr "Afterware-beállítások"
+
+msgid "Afterware ticket response was missing required fields."
+msgstr "Az Afterware hibajegy-válaszából hiányoztak kötelező adatok."
+
+msgid "Afterware tickets"
+msgstr "Afterware-hibajegyek"
+
+msgid "Afterware updates are paused for this site. Check site coverage and billing in your Afterware account. Installed plugins keep working, and local reverts remain available."
+msgstr "Az Afterware-frissítések ezen a webhelyen szünetelnek. Ellenőrizze a webhely előfizetési helyét és a számlázást az Afterware-fiókjában. A telepített bővítmények tovább működnek, és helyben továbbra is visszaállíthatók."
+
+msgid "Afterware withdrew the signing key this update was signed with, so it was not installed. Updates resume with the next signed update from Afterware; there is nothing to do on this site."
+msgstr "Az Afterware visszavonta a frissítés aláírásához használt kulcsot, ezért nem telepítettük a frissítést. A következő aláírt Afterware-frissítéssel folytatódhat a frissítés; ezen a webhelyen nincs további teendő."
+
+msgid "Always"
+msgstr "Mindig"
+
+msgid "An administrator who can install plugins must connect this site to an account."
+msgstr "A webhelyet bővítmények telepítésére jogosult adminisztrátor kapcsolhatja fiókhoz."
+
+msgid "Back to the overview"
+msgstr "Vissza az áttekintéshez"
+
+msgid "Backup kept since"
+msgstr "Biztonsági mentés időpontja"
+
+msgid "Breakage"
+msgstr "Hiba"
+
+msgid "Build list unavailable"
+msgstr "A verziólista nem érhető el"
+
+msgid "Choose whether this is a breakage or a question."
+msgstr "Válassza ki, hogy hibát jelez vagy kérdést tesz fel."
+
+msgid "Client version"
+msgstr "Kliens verziója"
+
+msgid "Code expires:"
+msgstr "A kód lejár:"
+
+msgid "Come from updates.afterware.io and are signed. Anything that does not verify is refused, never installed."
+msgstr "Az updates.afterware.io címről érkeznek, és alá vannak írva. Amit nem sikerül ellenőrizni, azt a rendszer elutasítja és nem telepíti."
+
+msgid "Connect this site first (wp afterware connect --key=…)"
+msgstr "Először kapcsolja össze a webhelyet (wp afterware connect --key=…)"
+
+msgid "Connect this site to Afterware first."
+msgstr "Először kapcsolja össze ezt a webhelyet az Afterware-rel."
+
+msgid "Connect this site to your account"
+msgstr "Webhely összekapcsolása a fiókjával"
+
+msgid "Connect to your Afterware account"
+msgstr "Kapcsolódás az Afterware-fiókhoz"
+
+msgid "Connected"
+msgstr "Kapcsolódva"
+
+msgid "Connected to Afterware."
+msgstr "Kapcsolódva az Afterware-hez."
+
+msgid "Connecting registers this site and gets it a key. It usually takes a second; if it did not work the first time, it is worth another try."
+msgstr "A csatlakozás regisztrálja a webhelyet és létrehozza a kulcsát. Általában egy pillanatig tart; ha elsőre nem sikerült, próbálja újra."
+
+msgid "Connection"
+msgstr "Kapcsolat"
+
+msgid "Connection needed"
+msgstr "Kapcsolat szükséges"
+
+msgid "Copied"
+msgstr "Kimásolva"
+
+msgid "Copy"
+msgstr "Másolás"
+
+msgid "Copy connection code"
+msgstr "Kapcsolódási kód másolása"
+
+msgid "Copy this code, open your dashboard, choose the intended workspace and enter the code there."
+msgstr "Másolja ki a kódot, nyissa meg a vezérlőpultot, válassza ki a munkaterületet, és adja meg ott a kódot."
+
+msgid "Could not copy"
+msgstr "Nem sikerült másolni"
+
+msgid "Could not get a connection code. Try again shortly or contact Afterware support."
+msgstr "Nem sikerült kapcsolódási kódot kérni. Próbálja újra később, vagy lépjen kapcsolatba az Afterware ügyfélszolgálatával."
+
+msgid "Danger zone"
+msgstr "Veszélyes műveletek"
+
+msgid "Debug log"
+msgstr "Hibanapló"
+
+msgid "Deleting Afterware Connect is a different thing, and it does delete the backups: revert anything you want the original of before you uninstall it."
+msgstr "Az Afterware Connect törlése más művelet: a biztonsági mentéseket is törli. Eltávolítás előtt állítsa vissza azokat a bővítményeket, amelyekből az eredetit szeretné használni."
+
+msgid "Disconnect"
+msgstr "Kapcsolat bontása"
+
+msgid "Disconnect this site"
+msgstr "Webhely kapcsolatának bontása"
+
+msgid "Disconnected"
+msgstr "Nincs kapcsolat"
+
+msgid "Disconnected from Afterware."
+msgstr "Kapcsolat bontva az Afterware-rel."
+
+msgid "Disconnecting stops scans and Afterware updates. Plugins already on an Afterware build stay exactly as they are, and you can still revert them from their own screens."
+msgstr "A kapcsolat bontása leállítja a vizsgálatokat és az Afterware-frissítéseket. Az Afterware-verziót használó bővítmények változatlanok maradnak, és a saját oldalukon továbbra is visszaállíthatók."
+
+msgid "Dismiss"
+msgstr "Bezárás"
+
+msgid "Display name"
+msgstr "Megjelenített név"
+
+msgid "Documentation"
+msgstr "Dokumentáció"
+
+msgid "Every scan sends this list and nothing more."
+msgstr "Minden vizsgálat ezt a listát küldi el, mást nem."
+
+msgid "Everything Afterware Connect has done on this site, newest first. It is kept as a record and there is no button to empty it; the oldest entries fall off once there are 200."
+msgstr "Az Afterware Connect ezen a webhelyen végzett műveletei, a legújabbal kezdve. A napló nem törölhető; 200 bejegyzés után a legrégebbiek kikerülnek belőle."
+
+msgid "Fetched"
+msgstr "Lekért"
+
+msgid "For each installed plugin"
+msgstr "Minden telepített bővítménynél"
+
+msgid "For each installed theme"
+msgstr "Minden telepített sablonnál"
+
+msgid "Forget every fetched signing key and rely on only the pinned keys until the next refresh?"
+msgstr "Törli az összes lekért aláírókulcsot, és a következő frissítésig csak a rögzített kulcsokat használja?"
+
+msgid "Forgot %s."
+msgstr "%s törölve."
+
+msgid "Forgot the stored key ring."
+msgstr "A tárolt kulcsgyűrűt töröltük."
+
+msgid "From %1$s to %2$s."
+msgstr "%1$s → %2$s."
+
+msgid "General"
+msgstr "Általános"
+
+msgid "General — not about one plugin"
+msgstr "Általános – nem egy adott bővítményről szól"
+
+msgid "Get a private code that expires after 15 minutes. Your site key stays on this site."
+msgstr "Kérjen 15 percig érvényes, bizalmas kódot. A webhelykulcs ezen a webhelyen marad."
+
+msgid "Get a replacement code"
+msgstr "Új kód kérése"
+
+msgid "Get connection code"
+msgstr "Kapcsolódási kód kérése"
+
+msgid "Gets “(Afterware maintained)” added, so you can tell the two apart at a glance."
+msgstr "A név kiegészül az „(Afterware maintained)” jelöléssel, így könnyen megkülönböztetheti a két változatot."
+
+msgid "Going back"
+msgstr "Visszaállítás"
+
+msgid "How Afterware Connect works"
+msgstr "Az Afterware Connect működése"
+
+msgid "Include the last 200 lines of debug.log when I open a ticket"
+msgstr "A debug.log utolsó 200 sorának csatolása hibajegy nyitásakor"
+
+msgid "Include the last 200 lines of debug.log with this ticket"
+msgstr "A debug.log utolsó 200 sorának csatolása ehhez a hibajegyhez"
+
+msgid "Install it from the WordPress updates screen"
+msgstr "Telepítés a WordPress frissítési oldaláról"
+
+msgid "Installed"
+msgstr "Telepítve"
+
+msgid "Key"
+msgstr "Kulcs"
+
+msgid "Key ring"
+msgstr "Kulcsgyűrű"
+
+msgid "Key ring forgotten"
+msgstr "Kulcsgyűrű törölve"
+
+msgid "Key ring refused"
+msgstr "Kulcsgyűrű elutasítva"
+
+msgid "Kind"
+msgstr "Típus"
+
+msgid "Known"
+msgstr "Ismert"
+
+msgid "Last refreshed"
+msgstr "Utolsó frissítés"
+
+msgid "Last scan: %s UTC"
+msgstr "Utolsó vizsgálat: %s UTC"
+
+msgid "Last scanned"
+msgstr "Utolsó vizsgálat"
+
+msgid "Locale"
+msgstr "Nyelv"
+
+msgid "Main file hash"
+msgstr "Főfájl ellenőrzőösszege"
+
+msgid "Maintained by Afterware"
+msgstr "Az Afterware tartja karban"
+
+msgid "Manifest does not match the expected format."
+msgstr "A jegyzék formátuma nem megfelelő."
+
+msgid "Manifest lists the same version more than once."
+msgstr "A jegyzék ugyanazt a verziót többször tartalmazza."
+
+msgid "Manifest names a latest version it does not list as a release."
+msgstr "A jegyzék olyan verziót jelöl legújabbnak, amely nem szerepel a kiadások között."
+
+msgid "Manifest release entry is incomplete."
+msgstr "A jegyzék kiadási bejegyzése hiányos."
+
+msgid "Manifest signature does not verify against the trusted Afterware key. Nothing was installed."
+msgstr "A jegyzék aláírása nem ellenőrizhető a megbízható Afterware-kulccsal. Semmit nem telepítettünk."
+
+msgid "Manifest signature is not a valid Ed25519 signature."
+msgstr "A jegyzék aláírása nem érvényes Ed25519-aláírás."
+
+msgid "Manifest signed with unknown key %s. Update Afterware Connect to refresh the trusted keys."
+msgstr "A jegyzéket ismeretlen kulcs írta alá: %s. Frissítse az Afterware Connectet a megbízható kulcsok frissítéséhez."
+
+msgid "Multisite"
+msgstr "Multisite"
+
+msgid "Never fetched."
+msgstr "Még nem történt lekérés."
+
+msgid "New ticket"
+msgstr "Új hibajegy"
+
+msgid "Newer version installed"
+msgstr "Újabb verzió van telepítve"
+
+msgid "No"
+msgstr "Nem"
+
+msgid "No Afterware signing key is trusted yet, so a key ring cannot be checked."
+msgstr "Még nincs megbízható Afterware-aláírókulcs, ezért a kulcsgyűrű nem ellenőrizhető."
+
+msgid "No end date"
+msgstr "Nincs lejárat"
+
+msgid "No plugin is installed under the slug %s."
+msgstr "Nincs telepített bővítmény ezzel az azonosítóval: %s."
+
+msgid "No plugins found."
+msgstr "Nem található bővítmény."
+
+msgid "No plugins match this filter."
+msgstr "Nincs a szűrőnek megfelelő bővítmény."
+
+msgid "No scan has run yet."
+msgstr "Még nem futott vizsgálat."
+
+msgid "No scan yet"
+msgstr "Még nem volt vizsgálat"
+
+msgid "No signing keys"
+msgstr "Nincs aláírókulcs"
+
+msgid "No signing keys are trusted yet."
+msgstr "Még nincs megbízható aláírókulcs."
+
+msgid "No tickets have been opened yet."
+msgstr "Még nem nyitottak hibajegyet."
+
+msgid "No tickets yet. Nothing has needed one."
+msgstr "Még nincs hibajegy."
+
+msgid "Not connected"
+msgstr "Nincs kapcsolat"
+
+msgid "Not connected. Run `wp afterware connect --key=<site key>`."
+msgstr "Nincs kapcsolat. Futtassa: `wp afterware connect --key=<site key>`."
+
+msgid "Not recorded"
+msgstr "Nincs rögzítve"
+
+msgid "Nothing else is sent. No content, users, options or emails."
+msgstr "Mást nem küldünk el: sem tartalmakat, felhasználókat, beállításokat, sem e-mail-címeket."
+
+msgid "Nothing has been fetched; there is nothing to forget."
+msgstr "Még nem történt lekérés, így nincs mit törölni."
+
+msgid "Nothing has happened to this plugin yet."
+msgstr "Ehhez a bővítményhez még nincs tevékenység."
+
+msgid "Nothing has happened yet. Entries appear here after the first scan."
+msgstr "Még nincs tevékenység. Az első vizsgálat után itt jelennek meg a bejegyzések."
+
+msgid "Nothing to fetch yet."
+msgstr "Egyelőre nincs mit lekérni."
+
+msgid "Nothing was lost. What you wrote is still here."
+msgstr "Semmi nem veszett el. A beírt szöveg továbbra is itt van."
+
+msgid "On Afterware"
+msgstr "Afterware-verzió"
+
+msgid "On the Afterware build"
+msgstr "Afterware-verzió használatban"
+
+msgid "Only administrators who can install plugins can do that. Nothing was changed."
+msgstr "Ezt csak bővítményeket telepíteni jogosult adminisztrátor végezheti el. Nem változtattunk semmit."
+
+msgid "Only administrators who can install plugins can revert."
+msgstr "Visszaállítást csak bővítmények telepítésére jogosult adminisztrátor indíthat."
+
+msgid "Only administrators who can install plugins can switch."
+msgstr "Váltást csak bővítmények telepítésére jogosult adminisztrátor indíthat."
+
+msgid "Open account dashboard"
+msgstr "Fiók vezérlőpultjának megnyitása"
+
+msgid "Open and past tickets"
+msgstr "Nyitott és korábbi hibajegyek"
+
+msgid "Open ticket"
+msgstr "Hibajegy megnyitása"
+
+msgid "Opened"
+msgstr "Megnyitva"
+
+msgid "Out of date range"
+msgstr "Érvényességi időn kívül"
+
+msgid "Overview"
+msgstr "Áttekintés"
+
+msgid "PHP version"
+msgstr "PHP-verzió"
+
+msgid "Pinned"
+msgstr "Rögzített"
+
+msgid "Pinned key %s is not a valid 32-byte Ed25519 public key for its key id and was ignored."
+msgstr "A rögzített %s kulcs nem az azonosítójához tartozó, érvényes 32 bájtos Ed25519 nyilvános kulcs, ezért figyelmen kívül hagytuk."
+
+msgid "Plugin"
+msgstr "Bővítmény"
+
+msgid "Plugins skipped"
+msgstr "Kihagyott bővítmények"
+
+msgid "Question"
+msgstr "Kérdés"
+
+msgid "Reactivation failed"
+msgstr "Az újraaktiválás sikertelen"
+
+msgid "Readme hash"
+msgstr "Readme ellenőrzőösszege"
+
+msgid "Redirects are refused."
+msgstr "Az átirányításokat elutasítjuk."
+
+msgid "Refresh now"
+msgstr "Frissítés most"
+
+msgid "Register this site with Afterware first."
+msgstr "Először regisztrálja a webhelyet az Afterware-nél."
+
+msgid "Registered"
+msgstr "Regisztrálva"
+
+msgid "Registration enables reports. A connection code lets your dashboard workspace manage this site and its subscription coverage."
+msgstr "A regisztráció bekapcsolja a jelentéseket. A kapcsolódási kóddal a vezérlőpult munkaterületéhez rendelheti a webhelyet és az előfizetési helyét."
+
+msgid "Reported %d plugin."
+msgid_plural "Reported %d plugins."
+msgstr[0] "%d bővítmény adatai elküldve."
+msgstr[1] "%d bővítmény adatai elküldve."
+
+msgid "Requirements need review"
+msgstr "A követelményeket ellenőrizni kell"
+
+msgid "Response over 1 MiB."
+msgstr "A válasz mérete meghaladja az 1 MiB-ot."
+
+msgid "Revert %s to its original version?"
+msgstr "Visszaállítja a(z) %s bővítmény eredeti verzióját?"
+
+msgid "Revert failed"
+msgstr "Sikertelen visszaállítás"
+
+msgid "Revert restores the saved plugin files. It does not undo database changes."
+msgstr "A visszaállítás a mentett bővítményfájlokat teszi vissza. Az adatbázis módosításait nem vonja vissza."
+
+msgid "Revert to upstream %s"
+msgstr "Visszaállítás az eredeti %s verzióra"
+
+msgid "Reverted"
+msgstr "Visszaállítva"
+
+msgid "Reverting restores the saved upstream files and stops Afterware updating this plugin. It does not undo database changes made by the maintained build."
+msgstr "A visszaállítás visszateszi a mentett eredeti fájlokat, és leállítja az Afterware-frissítéseket ennél a bővítménynél. A karbantartott verzió által végzett adatbázis-módosításokat nem vonja vissza."
+
+msgid "Revoked"
+msgstr "Visszavont"
+
+msgid "Ring accepted: %s."
+msgstr "Kulcsgyűrű elfogadva: %s."
+
+msgid "Save settings"
+msgstr "Beállítások mentése"
+
+msgid "Scan"
+msgstr "Vizsgálat"
+
+msgid "Scan complete."
+msgstr "A vizsgálat befejeződött."
+
+msgid "Scan complete: %1$d stewarded plugin(s), %2$d with a switch available."
+msgstr "A vizsgálat befejeződött: %1$d karbantartott bővítmény, ebből %2$d esetén lehetséges a váltás."
+
+msgid "Scan failed"
+msgstr "Sikertelen vizsgálat"
+
+msgid "Scan now"
+msgstr "Vizsgálat indítása"
+
+msgid "Select and copy the code manually"
+msgstr "Jelölje ki és másolja ki a kódot"
+
+msgid "Settings"
+msgstr "Beállítások"
+
+msgid "Settings saved."
+msgstr "A beállításokat mentettük."
+
+msgid "Share the code only with the person managing this site’s workspace. Creating a code does not confirm account association or payment."
+msgstr "A kódot csak azzal ossza meg, aki a webhely munkaterületét kezeli. A kód létrehozása önmagában nem jelenti a fiók összekapcsolását vagy a fizetés megtörténtét."
+
+msgid "Show every plugin"
+msgstr "Összes bővítmény megjelenítése"
+
+msgid "Show the exact lines that would be sent"
+msgstr "Az elküldendő sorok megjelenítése"
+
+msgid "Signature does not verify against any key pinned in this build."
+msgstr "Az aláírás egyik, ebben a verzióban rögzített kulccsal sem ellenőrizhető."
+
+msgid "Signing key unknown"
+msgstr "Ismeretlen aláírókulcs"
+
+msgid "Signing key withdrawn"
+msgstr "Aláírókulcs visszavonva"
+
+msgid "Signing keys updated"
+msgstr "Aláírókulcsok frissítve"
+
+msgid "Site URL"
+msgstr "Webhely címe"
+
+msgid "Site id"
+msgstr "Webhelyazonosító"
+
+msgid "Site key"
+msgstr "Webhelykulcs"
+
+msgid "Slug"
+msgstr "Azonosító"
+
+msgid "Source"
+msgstr "Forrás"
+
+msgid "Standby"
+msgstr "Tartalék"
+
+msgid "Status"
+msgstr "Állapot"
+
+msgid "Stewarded"
+msgstr "Karbantartott"
+
+msgid "Stored on this site and sent with each request. It is never shown again after registration."
+msgstr "Ezen a webhelyen tároljuk, és minden kéréshez elküldjük. A regisztráció után többé nem jelenítjük meg."
+
+msgid "Subject"
+msgstr "Tárgy"
+
+msgid "Switch"
+msgstr "Váltás"
+
+msgid "Switch %s to the Afterware build?"
+msgstr "Átváltja a(z) %s bővítményt az Afterware verziójára?"
+
+msgid "Switch available"
+msgstr "Váltás lehetséges"
+
+msgid "Switch failed"
+msgstr "Sikertelen váltás"
+
+msgid "Switch to Afterware"
+msgstr "Váltás az Afterware-re"
+
+msgid "Switch to Afterware build %s"
+msgstr "Váltás az Afterware %s verziójára"
+
+msgid "Switch unfinished"
+msgstr "A váltás nem fejeződött be"
+
+msgid "Switched"
+msgstr "Váltás megtörtént"
+
+msgid "The Afterware build %1$s is older than your installed version %2$s. Keep your current version until a suitable maintained build is available."
+msgstr "Az Afterware %1$s verziója régebbi, mint a telepített %2$s. Tartsa meg a jelenlegi verziót, amíg elérhető nem lesz megfelelő karbantartott változat."
+
+msgid "The Update URI header, when the plugin has one."
+msgstr "Az Update URI fejléc értéke, ha van ilyen."
+
+msgid "The backup %s has changed since Afterware made it."
+msgstr "A(z) %s biztonsági mentés megváltozott a létrehozása óta."
+
+msgid "The backup Afterware made of this plugin is no longer at %s, so it cannot be restored. Reinstall the original plugin from its own source."
+msgstr "Az Afterware által készített biztonsági mentés már nem található itt: %s, ezért nem állítható vissza. Telepítse újra az eredeti bővítményt a saját forrásából."
+
+msgid "The backup is at"
+msgstr "A biztonsági mentés helye"
+
+msgid "The build requirements or runtime versions could not be compared. Ask support to review them before installing this build."
+msgstr "A verzió követelményeit és a futtatókörnyezet verzióit nem sikerült összehasonlítani. Telepítés előtt kérje az ügyfélszolgálat segítségét."
+
+msgid "The confirmation text did not match. Nothing was changed."
+msgstr "A megerősítő szöveg nem egyezett. Nem változtattunk semmit."
+
+msgid "The current signed manifest does not list the version Afterware was asked to install."
+msgstr "A jelenlegi aláírt jegyzék nem tartalmazza az Afterware-rel telepíteni kért verziót."
+
+msgid "The current signed manifest no longer offers this update package."
+msgstr "A jelenlegi aláírt jegyzék már nem kínálja ezt a frissítési csomagot."
+
+msgid "The downloaded update file could not be read to check its hash."
+msgstr "A letöltött frissítési fájl nem olvasható, ezért az ellenőrzőösszege nem vizsgálható."
+
+msgid "The downloaded update file does not match the hash in the signed manifest."
+msgstr "A letöltött frissítési fájl ellenőrzőösszege nem egyezik az aláírt jegyzékben szereplővel."
+
+msgid "The install did not complete. Your previous copy of %1$s is saved at %2$s; use Revert to restore it."
+msgstr "A telepítés nem fejeződött be. A(z) %1$s korábbi másolata itt található: %2$s; használja a Visszaállítás műveletet."
+
+msgid "The install of %s did not complete; use Revert to restore it."
+msgstr "A(z) %s telepítése nem fejeződött be; a visszaállításhoz használja a Visszaállítás műveletet."
+
+msgid "The key ring could not be fetched: %s."
+msgstr "Nem sikerült lekérni a kulcsgyűrűt: %s."
+
+msgid "The key ring could not be fetched: no response."
+msgstr "Nem sikerült lekérni a kulcsgyűrűt: nincs válasz."
+
+msgid "The key ring does not match the expected format."
+msgstr "A kulcsgyűrű formátuma nem megfelelő."
+
+msgid "The key ring has not been fetched yet. It will be, on the next daily check, or now."
+msgstr "A kulcsgyűrűt még nem kértük le. A következő napi ellenőrzéskor automatikusan lekérjük, vagy most is megteheti."
+
+msgid "The key ring has not been refreshed in over 30 days. Afterware Connect still works, but a refresh is worth doing."
+msgstr "A kulcsgyűrűt több mint 30 napja nem frissítettük. Az Afterware Connect továbbra is működik, de érdemes frissíteni."
+
+msgid "The key ring is not JSON."
+msgstr "A kulcsgyűrű nem JSON formátumú."
+
+msgid "The key ring is unchanged."
+msgstr "A kulcsgyűrű nem változott."
+
+msgid "The key ring leaves no active signing key, so it was refused."
+msgstr "A kulcsgyűrű nem tartalmazna aktív aláírókulcsot, ezért elutasítottuk."
+
+msgid "The key ring lists no keys."
+msgstr "A kulcsgyűrű nem tartalmaz kulcsokat."
+
+msgid "The key ring server answered with HTTP %d."
+msgstr "A kulcsgyűrű-kiszolgáló HTTP %d választ adott."
+
+msgid "The key ring uses a schema version this build of Afterware Connect does not understand."
+msgstr "A kulcsgyűrű olyan sémaverziót használ, amelyet az Afterware Connect ezen verziója nem ismer."
+
+msgid "The key ring withdraws the key that signed it, so nothing could read it back."
+msgstr "A kulcsgyűrű visszavonná a saját aláírókulcsát, ezért később nem lenne ellenőrizhető."
+
+msgid "The manifest points at an update package Afterware does not serve. Package URLs must be served from Afterware hosts over HTTPS."
+msgstr "A jegyzék olyan frissítési csomagra mutat, amelyet nem az Afterware szolgál ki. A csomagok címének HTTPS-en, Afterware-kiszolgálóra kell mutatnia."
+
+msgid "The manifest received for this plugin is about a different plugin."
+msgstr "A bővítményhez kapott jegyzék egy másik bővítményre vonatkozik."
+
+msgid "The plugin folder name."
+msgstr "A bővítmény mappájának neve."
+
+msgid "The recorded backup %s is not inside the Afterware backups directory."
+msgstr "A nyilvántartott %s mentés nincs az Afterware biztonsági mentéseinek könyvtárában."
+
+msgid "The revert did not go through, so the plugin is still on the Afterware build."
+msgstr "A visszaállítás nem sikerült; a bővítmény továbbra is az Afterware verzióját használja."
+
+msgid "The signing keys this site trusts for Afterware manifests and packages. Afterware rotates these from time to time; this site checks for changes once a day."
+msgstr "Az Afterware-jegyzékek és -csomagok ellenőrzéséhez használt, ezen a webhelyen megbízhatónak elfogadott aláírókulcsok. Az Afterware időnként lecseréli őket; a webhely naponta ellenőrzi a változásokat."
+
+msgid "The switch did not go through, so nothing was changed."
+msgstr "A váltás nem sikerült, így nem változtattunk semmit."
+
+msgid "The theme folder name."
+msgstr "A sablon mappájának neve."
+
+msgid "The ticket could not be sent (%s). Your text is still in the form below."
+msgstr "A hibajegyet nem sikerült elküldeni (%s). A szövegét megőriztük az alábbi űrlapon."
+
+msgid "The version in the plugin header."
+msgstr "A bővítmény fejlécében szereplő verzió."
+
+msgid "The version in the theme header."
+msgstr "A sablon fejlécében szereplő verzió."
+
+msgid "There is no debug.log on this site, so there are no log lines to attach."
+msgstr "Ezen a webhelyen nincs debug.log, így nincs csatolható naplórészlet."
+
+msgid "There is no verified Afterware manifest for this plugin right now, so nothing can be installed."
+msgstr "Ehhez a bővítményhez jelenleg nincs ellenőrzött Afterware-jegyzék, ezért semmi nem telepíthető."
+
+msgid "There is no verified Afterware manifest for this plugin right now, so this update package cannot be authorised."
+msgstr "Ehhez a bővítményhez jelenleg nincs ellenőrzött Afterware-jegyzék, ezért a frissítési csomag nem engedélyezhető."
+
+msgid "This build of Afterware Connect cannot verify updates yet. Update Afterware Connect when a new version is available."
+msgstr "Az Afterware Connect ezen verziója még nem tudja ellenőrizni a frissítéseket. Frissítse az Afterware Connectet, ha megjelenik új verzió."
+
+msgid "This build of Afterware Connect has no signing keys pinned, so updates cannot be verified. Update Afterware Connect."
+msgstr "Az Afterware Connect ezen verziójában nincs rögzített aláírókulcs, ezért a frissítések nem ellenőrizhetők. Frissítse az Afterware Connectet."
+
+msgid "This build requires %1$s %2$s or newer; this site runs %3$s. Review the requirements before changing your site."
+msgstr "Ehhez a verzióhoz legalább %1$s %2$s szükséges; a webhelyen %3$s fut. A módosítás előtt ellenőrizze a követelményeket."
+
+msgid "This build trusts no signing keys yet. Updates from Afterware are refused until a release ships with keys, so there is nothing to fetch and nothing to check."
+msgstr "Ez a verzió még nem tartalmaz megbízható aláírókulcsot. Az Afterware-frissítéseket ezért elutasítja, amíg nem jelenik meg kulcsokat tartalmazó kiadás. Egyelőre nincs mit lekérni vagy ellenőrizni."
+
+msgid "This site has not fetched and checked the signature on this build yet. Switching fetches it first and stops if it does not verify."
+msgstr "Ez a webhely még nem kérte le és nem ellenőrizte a verzió aláírását. A váltás először elvégzi ezt, és megáll, ha az ellenőrzés sikertelen."
+
+msgid "This site is connected to Afterware."
+msgstr "A webhely kapcsolódik az Afterware-hez."
+
+msgid "This site is no longer connected to Afterware. Plugins already on an Afterware build stay exactly as they are, and you can still revert them."
+msgstr "A webhely már nem kapcsolódik az Afterware-hez. Az Afterware-verzióra váltott bővítmények változatlanok maradnak, és továbbra is visszaállíthatók."
+
+msgid "This site is not connected to Afterware yet, so there is nowhere to send a ticket. Connect it from the overview first."
+msgstr "A webhely még nem kapcsolódik az Afterware-hez, ezért nincs hová elküldeni a hibajegyet. Először kapcsolódjon az áttekintő oldalon."
+
+msgid "This site is not connected to Afterware. Until it is, nothing is scanned, no risk report comes back, and no Afterware updates are offered."
+msgstr "Ez a webhely nem kapcsolódik az Afterware-hez. Amíg nincs kapcsolat, nem készül vizsgálat vagy kockázati jelentés, és Afterware-frissítéseket sem kínálunk fel."
+
+msgid "Ticket"
+msgstr "Hibajegy"
+
+msgid "Ticket %s opened."
+msgstr "%s hibajegy megnyitva."
+
+msgid "Ticket held back"
+msgstr "Hibajegy visszatartva"
+
+msgid "Ticket opened."
+msgstr "A hibajegyet megnyitottuk."
+
+msgid "Ticket opened. Reference: %s."
+msgstr "A hibajegyet megnyitottuk. Hivatkozási szám: %s."
+
+msgid "Ticket opened: %s"
+msgstr "Hibajegy megnyitva: %s"
+
+msgid "Tickets"
+msgstr "Hibajegyek"
+
+msgid "Tickets go to the people who maintain these builds. Every ticket carries what versions this site is running, so you do not have to describe your setup."
+msgstr "A hibajegyek a verziókat karbantartó csapathoz kerülnek. Minden hibajegy tartalmazza a webhelyen futó verziókat, így nem kell külön leírnia a környezetet."
+
+msgid "Too many connection codes were requested. Wait an hour before trying again."
+msgstr "Túl sok kapcsolódási kódot kértek. Várjon egy órát, mielőtt újra próbálkozik."
+
+msgid "Trusted since"
+msgstr "Megbízható ettől"
+
+msgid "Trusted until"
+msgstr "Megbízható eddig"
+
+msgid "Try again"
+msgstr "Újrapróbálkozás"
+
+msgid "Type %s to confirm."
+msgstr "A megerősítéshez írja be: %s."
+
+msgid "Type the plugin slug to confirm"
+msgstr "A megerősítéshez írja be a bővítmény azonosítóját"
+
+msgid "Type the word to confirm"
+msgstr "A megerősítéshez írja be a szót"
+
+msgid "Unavailable"
+msgstr "Nem érhető el"
+
+msgid "Unfinished switch"
+msgstr "Befejezetlen váltás"
+
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+msgid "Unknown to Afterware"
+msgstr "Az Afterware számára ismeretlen"
+
+msgid "Up to date. This is the newest build Afterware has signed."
+msgstr "Naprakész. Ez az Afterware által aláírt legújabb verzió."
+
+msgid "Update URI"
+msgstr "Frissítési URI"
+
+msgid "Update available: %s."
+msgstr "Elérhető frissítés: %s."
+
+msgid "Updated"
+msgstr "Frissítve"
+
+msgid "Updates"
+msgstr "Frissítések"
+
+msgid "Updates cannot be checked on this build of Afterware Connect."
+msgstr "Az Afterware Connect ezen verziójában nem ellenőrizhetők a frissítések."
+
+msgid "Updates cannot be verified"
+msgstr "A frissítések nem ellenőrizhetők"
+
+msgid "Updates paused"
+msgstr "A frissítések szünetelnek"
+
+msgid "Upstream copy"
+msgstr "Eredeti változat"
+
+msgid "Usage: wp afterware connect --key=<site key>"
+msgstr "Használat: wp afterware connect --key=<site key>"
+
+msgid "Usage: wp afterware revert <slug> [--yes]"
+msgstr "Használat: wp afterware revert <slug> [--yes]"
+
+msgid "Usage: wp afterware switch <slug> [--yes]"
+msgstr "Használat: wp afterware switch <slug> [--yes]"
+
+msgid "Usage: wp afterware ticket <slug> --subject=<subject> [--body=<body>] [--kind=question|breakage] [--log]"
+msgstr "Használat: wp afterware ticket <slug> --subject=<subject> [--body=<body>] [--kind=question|breakage] [--log]"
+
+msgid "Verification failed"
+msgstr "Sikertelen ellenőrzés"
+
+msgid "Verification failed for %s"
+msgstr "A(z) %s ellenőrzése sikertelen"
+
+msgid "Verification failure"
+msgstr "Ellenőrzési hiba"
+
+msgid "Verification unavailable"
+msgstr "Az ellenőrzés nem érhető el"
+
+msgid "Version"
+msgstr "Verzió"
+
+msgid "Version %s installed"
+msgstr "Telepített verzió: %s"
+
+msgid "View"
+msgstr "Megtekintés"
+
+msgid "What changes when you switch"
+msgstr "Mi változik a váltással?"
+
+msgid "What happened?"
+msgstr "Mi történt?"
+
+msgid "What kind of ticket?"
+msgstr "Milyen típusú a hibajegy?"
+
+msgid "What this site sends"
+msgstr "Mit küld el a webhely?"
+
+msgid "What you did, what you expected, and what happened instead."
+msgstr "Mit tett, mire számított, és ehelyett mi történt?"
+
+msgid "Whether the plugin is switched on."
+msgstr "Be van-e kapcsolva a bővítmény."
+
+msgid "Whether the theme is the one in use."
+msgstr "Ez az éppen használt sablon-e."
+
+msgid "Which plugin?"
+msgstr "Melyik bővítményről van szó?"
+
+msgid "WordPress cannot write to the plugins directory without FTP credentials; switch from the Plugins screen is not available on this host yet."
+msgstr "A WordPress FTP-hitelesítés nélkül nem tud írni a bővítmények könyvtárába, ezért ezen a kiszolgálón egyelőre nem lehetséges a váltás a Bővítmények oldalról."
+
+msgid "WordPress cannot write to wp-content without FTP credentials, so Afterware cannot store a backup on this host."
+msgstr "A WordPress FTP-hitelesítés nélkül nem tud írni a wp-content mappába, ezért az Afterware nem tud biztonsági mentést készíteni ezen a kiszolgálón."
+
+msgid "WordPress could not install the plugin files."
+msgstr "A WordPress nem tudta telepíteni a bővítmény fájljait."
+
+msgid "WordPress tried to install an update package that Afterware never offered for this plugin."
+msgstr "A WordPress olyan frissítési csomagot próbált telepíteni, amelyet az Afterware nem kínált fel ehhez a bővítményhez."
+
+msgid "WordPress version"
+msgstr "WordPress-verzió"
+
+msgid "Yes"
+msgstr "Igen"
+
+msgid "You can move these to an Afterware build now."
+msgstr "Ezeket most átválthatja az Afterware verziójára."
+
+msgid "You do not have permission to connect this site to an account."
+msgstr "Nincs jogosultsága a webhely fiókhoz kapcsolásához."
+
+msgid "You do not have permission to install or change plugins on this site."
+msgstr "Nincs jogosultsága bővítményeket telepíteni vagy módosítani ezen a webhelyen."
+
+msgid "You do not have permission to manage Afterware on this site."
+msgstr "Nincs jogosultsága az Afterware kezeléséhez ezen a webhelyen."
+
+msgid "Your settings and data"
+msgstr "Beállítások és adatok"
+
+msgid "always"
+msgstr "mindig"
+
+msgid "at"
+msgstr "ekkor"
+
+msgid "in %s"
+msgstr "%s múlva"
+
+msgid "missing on disk"
+msgstr "hiányzik a lemezről"
+
+msgid "no"
+msgstr "nem"
+
+msgid "no details"
+msgstr "nincs részlet"
+
+msgid "no end date"
+msgstr "nincs lejárat"
+
+msgid "reason unrecorded"
+msgstr "az ok nincs rögzítve"
+
+msgid "the last scan did not say, and no verified list of builds is stored"
+msgstr "az utolsó vizsgálat nem adott választ, és nincs mentett ellenőrzött verziólista"
+
+msgid "yes"
+msgstr "igen"
+
+msgctxt "prefix read out before a key status chip label"
+msgid "Status: "
+msgstr "Állapot: "
+
+msgctxt "prefix read out before a status chip label"
+msgid "Status: "
+msgstr "Állapot: "
+
+msgctxt "prefix read out before a ticket kind"
+msgid "Kind: "
+msgstr "Típus: "
+
+msgctxt "prefix read out before an activity kind"
+msgid "Kind: "
+msgstr "Típus: "
+

@@ -3,7 +3,7 @@
  * Plugin Name: Afterware Connect
  * Plugin URI: https://afterware.io/docs/install
  * Description: Inventory, risk report and signed in-place updates for abandoned WordPress plugins, maintained by Afterware.
- * Version: 0.3.1
+ * Version: 0.3.2
  * Requires at least: 5.8
  * Requires PHP: 7.4
  * Author: Afterware (Complexolution Ltd.)
@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'AFTERWARE_VERSION', '0.3.1' );
+define( 'AFTERWARE_VERSION', '0.3.2' );
 define( 'AFTERWARE_FILE', __FILE__ );
 define( 'AFTERWARE_DIR', plugin_dir_path( __FILE__ ) );
 define( 'AFTERWARE_URL', plugin_dir_url( __FILE__ ) );

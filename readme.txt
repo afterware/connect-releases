@@ -4,7 +4,7 @@ Tags: security, updates, plugins, maintenance, inventory
 Requires at least: 5.8
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 0.3.1
+Stable tag: 0.3.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -182,6 +182,9 @@ Backups contain your plugin's own files. Symbolic links inside a plugin director
 skipped rather than followed, and the number skipped is recorded in the activity log.
 
 == Changelog ==
+
+= 0.3.2 =
+* Added Hungarian translations for the plugin interface.
 
 = 0.3.1 =
 * Point the plugin information link to the Afterware Connect installation guide.

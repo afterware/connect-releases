@@ -1,6 +1,6 @@
 {
-  "version": "0.3.1",
-  "development_commit": "42a99cd2567d11d33e9f27d4e5e25b6e0327fb8a",
+  "version": "0.3.2",
+  "development_commit": "4bd4a9c192e313509a0672c80325950481c8b5e9",
   "publication": "Complete GPL runtime source snapshot; development history is not included.",
-  "build": "git archive --format=zip --prefix=afterware/ v0.3.1 > afterware-connect-0.3.1.zip"
+  "build": "git archive --format=zip --prefix=afterware/ v0.3.2 > afterware-connect-0.3.2.zip"
 }
